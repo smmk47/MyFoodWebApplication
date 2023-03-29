@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  
+
+  <!--attaching Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/payment.css" />
+  <title>Payment</title>
+  
+  
+ 
+</head>
+  <!--creating body of the page and creating heaader and payment form  -->
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="navigation container">
+      <div class="logo">
+         <a href="home.html"><h1>Pizzeria</h1></a>
+      </div>
+
+      <div class="menu">
+        <div class="top-nav">
+          <div class="logo">
+            <h1>Pizzeria</h1>
+          </div>
+          
+        </div>
+
+         <ul class="nav-list">
+            <li class="nav-item">
+			<!-- creating anchor hyperlink to other pages-->
+              <a href="home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Deals</a>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link">Cart</a>
+            </li>
+            
+            <li class="nav-item">
+            </li>
+            
+          </ul>
+      </div>
+
+  
+
+      
+    </div>
+  </nav>
+<div>
+
+<div class="container">
+  <div id="Checkout" class="inline">
+      <h1>Payment</h1>
+	  
+      <div class="card-row">
+          <span class="visa"></span>
+          <span class="mastercard"></span>
+          <span class="amex"></span>
+          <span class="discover"></span>
+      </div>
+      <form>
+          
+          <div class="form-group">
+              <label for="NameOnCard">Name</label>
+              <input id="NameOnCard" class="form-control" type="text" placeholder="murtaza kazmi" ></input>
+          </div>
+		  <div class="form-group">
+              <label for="CreditCardNumber">Contact number</label>
+              <input id="CreditCardNumber" class="null card-image form-control" type="text" placeholder="+ 92 3040057760"></input>
+          </div>
+          <div class="form-group">
+              <label for="CreditCardNumber">Email</label>
+              <input id="CreditCardNumber" class="null card-image form-control" type="text" placeholder="i210685@nu.edu.pk"></input>
+          </div>
+          <div class="form-group">
+              <label for="CreditCardNumber">Payment method</label>
+              <input id="CreditCardNumber" class="null card-image form-control" type="text" placeholder="Cash on dilivery or online payment"></input>
+          </div>
+        
+          <div class="zip-code-group form-group">
+              <label for="ZIPCode">Complete Address Includig ZIP/Postal code</label>
+              <div class="input-container">
+                  <input id="ZIPCode" class="form-control" type="text" placeholder="4600" ></input>
+                  <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="left" data-content="Enter the ZIP/Postal code for your credit card billing address."><i class="fa fa-question-circle"></i></a>
+              </div>
+          </div>
+		  <a href="home.html" class="checkout btn">Place and order</a>
+       
+      </form>
+  </div>
+</div>
+
+</div>
+ 
+
+
+    <!-- creating Footer and divions in it-->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+      
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+		  <!-- creating anchor hyperlink to other pages-->
+           <a href="home.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="product.html">Deals</a>
+         
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="login.html">My Account</a>
+          
+          
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            Islamabad, Pakistan
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            i210685@nu.edu.pk
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +92 304 0057760
+          </div>
+          <div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  
+  
+</body>
+
+</html>
